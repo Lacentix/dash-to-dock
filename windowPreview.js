@@ -575,7 +575,7 @@ class WindowPreviewMenuItem extends PopupMenu.PopupBaseMenuItem {
             opacity: 255,
             width: fullWidth,
             duration: time,
-            mode: Clutter.AnimationMode.EASE_IN_OUT_QUAD,
+            mode: Clutter.AnimationMode.EASE_IN_OUT_CUBIC,
         });
     }
 
